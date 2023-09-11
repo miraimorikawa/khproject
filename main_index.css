@@ -1,15 +1,18 @@
 body {
-  background-color: #ffffff;
+  background-color: #000000;
+  color: white;
+  font-family: Verdana;
+  font-size: 13px;
 }
 
 .header {
     padding: 1%;
-    text-align: left;
-    color: rgb(0, 0, 0);
-    font-size: 12px;
-    border-style: double;
-    border-width: 2px;
-    border-color: #000000;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 8px;
+    border-style:ridge;
+    border-width: 3px;
+    border-color: #ffffff;
 }
 
 ul {
@@ -17,17 +20,28 @@ ul {
 }
 
 ul li::before {
-  content: "\2022";
-  color: #000000;
+  content: "-";
+  color: #ffffff;
   font-weight: bold;
   display: inline-block; 
   width: 1em;
   margin-left: -1em;
 }
 
-.mcomments {
-  border: #000000;
+.newsblog {
+  border: #ffffff;
   border-width: 1px;
-  border-style: dotted;
-  padding: 1%;
+  border-style:groove;
+  padding-left: 3%;
+}
+
+.newsblog2 {
+  text-align: right;
+  padding-right: 3%;
+}
+
+.mcomments {
+  padding-left: 3%;
+  padding: 2%;
+  color: yellow;
 }
