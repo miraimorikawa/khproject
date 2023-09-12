@@ -53,6 +53,7 @@ ul li::before {
   border-width: 1px;
   border-style:groove;
   padding-left: 3%;
+  padding-right: 3%;
 }
 
 .newsblog2 {
@@ -63,6 +64,7 @@ ul li::before {
 
 .mcomments {
   padding-left: 3%;
+  padding-right: 3%;
   padding: 2%;
   color: yellow;
 }
