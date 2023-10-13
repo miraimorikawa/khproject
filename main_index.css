@@ -51,7 +51,8 @@ ul li::before {
 .newsblog {
   border: #ffffff;
   border-width: 1px;
-  border-style:groove;
+  border-style: groove;
+  border-color: yellow;
   padding-left: 3%;
   padding-right: 3%;
 }
