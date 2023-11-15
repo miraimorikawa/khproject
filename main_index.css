@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Candara;
+  src: url(font/Candara.ttf);
+}
+
 a:link {
 color: cyan;     
 text-decoration: none;
