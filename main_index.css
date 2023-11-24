@@ -4,27 +4,28 @@
 }
 
 a:link {
-color: cyan;     
+color: #E55807;     
 text-decoration: none;
 }
 
 a:visited {
-color: cyan;
+color: #E55807;
 text-decoration: none;
 }
 
 a:hover {
-color: cyan;
+color: #E55807;
 text-decoration: none;
 }
 
 a:active {
-     color: blue;
+     color: #E55807;
      text-decoration: none;
 }
 
 body {
-  background-color: #000000;
+  background-color: #261206;
+  background-image: linear-gradient(#180b03, #341603);
   color: white;
   font-family: Candara;
   font-size: 13px;
@@ -35,9 +36,15 @@ body {
     text-align: center;
     color: rgb(255, 255, 255);
     font-size: 8px;
-    border-style:ridge;
-    border-width: 3px;
+    border-style: solid;
+    border-width: px;
     border-color: #ffffff;
+    border-radius: 8px;
+}
+
+.header p {
+  font-size: 15px;
+  font-weight: bold;
 }
 
 ul {
@@ -57,7 +64,7 @@ ul li::before {
   border: #ffffff;
   border-width: 1px;
   border-style: groove;
-  border-color: yellow;
+  border-color: rgb(255, 255, 255);
   padding-left: 3%;
   padding-right: 3%;
 }
@@ -73,4 +80,12 @@ ul li::before {
   padding-right: 3%;
   padding: 2%;
   color: yellow;
+}
+
+.header-nav {
+  font-size: 12px;
+}
+
+.header-nav span {
+  color: #E55807;
 }
